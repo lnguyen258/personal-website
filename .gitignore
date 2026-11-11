@@ -1,0 +1,12 @@
+﻿node_modules/
+dist/
+.vercel/
+graphify-out/
+# screenshot iterations are large and regenerable (node tools/shot.mjs); keep the written design log
+shots/*.png
+.env*
+*.log
+
+# local agent tooling (machine-specific paths)
+.claude/
+CLAUDE.md

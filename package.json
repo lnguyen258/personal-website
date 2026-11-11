@@ -1,0 +1,21 @@
+{
+  "name": "ink-mist-portfolio",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "shot": "node tools/shot.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.15.1",
+    "pixi.js": "^8.22.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7"
+  }
+}
