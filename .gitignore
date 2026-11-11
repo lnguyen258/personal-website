@@ -10,3 +10,5 @@ shots/*.png
 # local agent tooling (machine-specific paths)
 .claude/
 CLAUDE.md
+.vercel
+.env*
